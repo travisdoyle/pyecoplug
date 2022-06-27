@@ -1,6 +1,6 @@
 import logging
 
-from homeassistant.const import (DEVICE_DEFAULT_NAME, ATTR_HIDDEN, EVENT_TIME_CHANGED, EVENT_HOMEASSISTANT_STOP)
+from homeassistant.const import (DEVICE_DEFAULT_NAME, ATTR_HIDDEN, EVENT_HOMEASSISTANT_STOP)
 from homeassistant.components.switch import SwitchDevice
 from homeassistant.helpers.entity import ToggleEntity
 from homeassistant.helpers.event import track_time_change
